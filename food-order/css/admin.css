@@ -1,0 +1,78 @@
+/*
+    Author : Avishkar Gaikwad;
+    Theme : Food Order Website;
+    version : 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+}
+/*  Css For Menu */
+.menu{ 
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/*  Css For Main Content */
+.main-content{
+    background-color: #a4b0be;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/*  Css For Footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
